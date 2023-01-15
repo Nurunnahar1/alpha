@@ -1,0 +1,104 @@
+/*
+Theme Name: Alpha
+Theme URI: 
+Author URI: https://mamurjor.com/
+Author:  LWHH
+Description: Our First HyperMinimal Theme 
+Tags: blog, education
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alpha
+ 
+*/
+h1.heading{
+    font-family: arial black;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+h3.tagline{
+    font-family: arial;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: center;
+}
+h2.post-title{
+    margin-bottom: 30px;
+}
+.post{
+    margin-bottom: 50px;
+}
+.post p{
+    font-family: helvetica;
+    line-height: 1.7em;
+    font-size: 18px;
+
+}
+.post .row:nth-child(2){
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.post:last-child .row:nth-child(2){
+    border-bottom: none;
+}
+.post p img{
+    max-width: 100%;
+    height: auto;
+}
+.post-pagination{
+    margin-bottom: 50px;
+}
+.footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #222;
+    color: #ccc;
+
+}
+.tags li{color: #3d9970;}
+.page-header{
+    background-position: center;
+    background-size: auto;
+    margin-bottom: 30px;
+    padding: 170px 0px;
+    background-repeat: no-repeat;
+}
+.header.page-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-header h1.heading a{
+    color: #222;
+}
+.header-logo img{
+    border-radius: 50%;
+}
+.dashicons {
+    color: #ccc;
+    font-size: 86px;
+}
+.img-fluid {
+    /* max-width: 100%; */
+    /* height: auto; */
+    width: 880px;
+    height: auto;
+}
+.authorpage{
+    margin-bottom: 50px;
+}
+.testimonials img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-bottom: 30px;
+}
+.search_highlight{
+    background-color: #ff0;
+    font-weight: bold;
+}
